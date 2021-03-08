@@ -2,6 +2,6 @@
 
 ## Topics 
 
-- [x] [Big O Notations]() 
+- [x] [Big O Notations](Big O Notations) 
 - [ ] ds
 
