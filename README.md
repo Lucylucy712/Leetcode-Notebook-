@@ -1,4 +1,4 @@
-# Leetcode-Notebook-
+# Leetcode Notebook
 
 ## Topics 
 
