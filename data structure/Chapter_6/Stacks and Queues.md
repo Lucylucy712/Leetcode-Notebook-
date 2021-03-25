@@ -13,3 +13,16 @@ A stack is an abstract data type such that an instance *S* supports the followin
 ## Adapter Pattern 
 
 The adapter design pattern applies to any context where we effectively want to modify an existing class so that its methods match those of a related, but different class or interface. 
+
+
+# Queue
+
+A queue is a collection of objects that are inserted and removed according to the *first-in,first-out* principle.
+
+A queue is an abstract data type such that an instance *Q* supports the following methods: 
+
+- `Q.enqueue(e)` : Add element `e` to the back of queue `Q`
+- `Q.dequeue()`: Remove and return the first element from queue `Q`; an error occurs if the queue is empty 
+- `Q.first()`: return a reference to the element at the front of queue `Q`, without removing it; an error occurs if the queue is empty 
+- `Q.is_empty()`: return True if queue `Q` does not contain any elements 
+- `len(Q)`: return the number of elements in queue `Q`. 
