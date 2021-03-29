@@ -28,4 +28,11 @@ A linked list in which each node keeps an explicit reference to the node before 
 
 - The header and trailer would never change. Only the nodes between them change 
 - We can treat all insertions in a unified manner, beacuse a new node will always be placed between a pair of existing adjanct nodes
-- 
+
+
+## The Positional List ADT (Page 279)
+
+All ADT we have covered now, including queue,stack, and double-ended queue, can only allow update operations that occur at one end of a sequence or the other. To handle some more complicated cases, we want to design an abstract data type that *provides a user a way to refer to elements anywhere in a sequence, and to perform arbitrary insertions and deletions*. 
+
+
+
