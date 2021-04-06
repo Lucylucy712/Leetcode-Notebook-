@@ -42,6 +42,22 @@ A binary Tree is an ordered tree with the following properties:
 
 A binary tree is proper if each node has either zero or two children. Thus, in a proper binary tree, every internal node has exactly two children. 
 
-For example, a decision tree is a binary tree,. 
+For example, a decision tree is a binary tree. 
 
+
+## 8.4 Tree Traversal Algorithms 
+
+A ***traversal*** of a tree T is a systematic way of accessing, or visiting, all the positions of T. 
+
+### Preorder traversal: 
+The root of `T` is visited first and then the subtrees rooted at its children are traversed recursively. 
+![](2021-04-06-08-43-39.png)
+
+### Postorder traversal: 
+It recursively traverses the subtrees rooted at the children of the root first, and then visits the root. 
+![](2021-04-06-08-44-34.png)
+
+### breadth-first traversal
+
+We visit all the positions at depth d before we visit the positions at depth d+1
 
